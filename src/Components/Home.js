@@ -106,7 +106,7 @@ function Home() {
         <>
             <header>
                 <div className='nav-bar'>
-                    <a href='#' className='logo'>Lalith Kumar Patel</a>
+                    <a href='#home' className='logo'>Lalith Kumar Patel</a>
                     <div className='navigation'>
                         <div className='nav-items'>
                             <div className='nav-close-btn'></div>
@@ -123,10 +123,10 @@ function Home() {
             <section className='home flex-center' id='home'>
                 <div className='home-container'>
                     <div className='media-icons'>
-                        <a href='https://github.com/lalith-kumar-patel' target='_blank' ><i class="fa-brands fa-github"></i></a>
-                        <a href='https://linkedin.com/in/lalith-kumar-patel' target='_blank' ><i class="fa-brands fa-linkedin"></i></a>
-                        <a href='https://www.facebook.com/lalithkumarpatel.chavan' target='_blank' ><i className='fab fa-facebook-f'></i></a>
-                        <a href='https://www.instagram.com/itsl_a_lith/' target='_blank' ><i className='fab fa-instagram'></i></a>
+                        <a href='https://github.com/lalith-kumar-patel' target='_blank' rel="noopener noreferrer" ><i class="fa-brands fa-github"></i></a>
+                        <a href='https://linkedin.com/in/lalith-kumar-patel' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href='https://www.facebook.com/lalithkumarpatel.chavan' target='_blank' rel="noopener noreferrer"><i className='fab fa-facebook-f'></i></a>
+                        <a href='https://www.instagram.com/itsl_a_lith/' target='_blank' rel="noopener noreferrer"><i className='fab fa-instagram'></i></a>
                     </div>
                     <div className='info'>
                         <h2>Hi, I'm</h2>
@@ -135,7 +135,7 @@ function Home() {
                         <a href='#contact' className='btn'>Contact Me <i className='fas fa-arrow-circle-right'></i></a>
                     </div>
                     <div className='home-img'>
-                        <img src={image} alt='no image'/>    
+                        <img src={image} alt=''/>    
                     </div> 
                 </div>
                 <a href='#about' className='scroll-down' >Scroll Down <i className='fas fa-arrow-down'></i></a>

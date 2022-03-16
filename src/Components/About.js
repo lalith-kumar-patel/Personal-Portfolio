@@ -34,7 +34,7 @@ function About() {
                                 <span>No. of Projects</span>
                             </li>
                         </ul>
-                        <a href='' className='btn' >Download Resume<i className='fas fa-download'></i></a>
+                        <a href='#about' className='btn' >Download Resume<i className='fas fa-download'></i></a>
                     </div>
                 </div>
             </div>

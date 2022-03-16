@@ -56,7 +56,7 @@ function Project() {
                                 <div className='portfolio-model-body'>
                                     <i className='fas fa-times portfolio-close-btn'></i>
                                     <h3>Personal Portfolio</h3>
-                                    <a href='https://github.com/lalith-kumar-patel' target='_blank'><img src={image} alt='' /></a>
+                                    <a href='https://github.com/lalith-kumar-patel' target='_blank' rel="noopener noreferrer"><img src={image} alt='' /></a>
                                     <p>Personal portfolio website Developed using HTML, CSS, React and ParticleJS </p>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ function Project() {
                                 <div className='portfolio-model-body'>
                                     <i className='fas fa-times portfolio-close-btn'></i>
                                     <h3>Profitable Goals</h3>
-                                    <a href='https://github.com/lalith-kumar-patel' target='_blank'><img src={image2} alt='' /></a>
+                                    <a href='https://github.com/lalith-kumar-patel' target='_blank' rel="noopener noreferrer"><img src={image2} alt='' /></a>
                                     <p>Developed a web application that helps users to trade and build a team and manage their 
                                         profiles. Implemented functionality like payment history, withdrawal, personal settings, 
                                         bank details, change password, logout, Admin panel. Tech involved: HTML5, CSS3, Typescript, Angular,
@@ -95,7 +95,7 @@ function Project() {
                                 <div className='portfolio-model-body'>
                                     <i className='fas fa-times portfolio-close-btn'></i>
                                     <h3>Sorting Animator</h3>
-                                    <a href='https://lalith-kumar-patel.github.io/SortingAnimator.io/' target='_blank'><img src={image1} alt='' /></a>
+                                    <a href='https://lalith-kumar-patel.github.io/SortingAnimator.io/' target='_blank' rel="noopener noreferrer"><img src={image1} alt='' /></a>
                                     <p>Developed a web application that helps users to visualize the sorting techniques. it is built with the 
                                         purpose to work with Javascript (Live).Implemented some sorting algorithms and functionality like Size
                                         of the array, Speed of sorting.</p>
@@ -115,7 +115,7 @@ function Project() {
                                 <div className='portfolio-model-body'>
                                     <i className='fas fa-times portfolio-close-btn'></i>
                                     <h3>Hand Cricket Game</h3>
-                                    <a href='https://github.com/lalith-kumar-patel' target='_blank'><img src={image3} alt='' /></a>
+                                    <a href='https://github.com/lalith-kumar-patel' target='_blank' rel="noopener noreferrer"><img src={image3} alt='' /></a>
                                     <p>Developed hand cricket game application where users can play visually. Tech involved: JAVA through NetBeans </p>
                                 </div>
                             </div>
