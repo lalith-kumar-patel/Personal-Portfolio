@@ -1,0 +1,160 @@
+.portfolio .container .content {
+    width: 100%;
+}
+
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 100%;
+    gap: 35px;
+    margin: 0 auto;
+}
+
+.portfolio-list .img-card {
+    position: relative;
+    max-width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio-list .img-card .overlay {
+    transition: 1s ease;
+}
+
+.portfolio-list .img-card:hover .overlay {
+    z-index: 777;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-list .img-card .info {
+    z-index: 777;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    color: #fff;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.portfolio-list .img-card:hover .info {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.portfolio-list .img-card .info h3 {
+    font-size: 1.5em;
+}
+
+.portfolio-list .img-card .info span {
+    font-size: 1.2em;
+}
+
+.portfolio-list .img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.portfolio-model {
+    z-index: 999999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: var(--transparent-color-01);
+    backdrop-filter: blur(20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.portfolio-model.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.portfolio-model-body {
+    position: relative;
+    background: var(--modal-bg-color);
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transform: translateY(-50px);
+    transition: .5s ease;
+}
+
+.portfolio-model.active .portfolio-model-body {
+    transform: translateY(0);
+}
+
+.portfolio-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.portfolio-model-body h3 {
+    font-size: 1.5em;
+}
+
+.portfolio-model-body img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.get-in-touch {
+    margin-top: 70px;
+}
+
+.get-in-touch .container .content {
+    width: 100%;
+}
+
+.get-in-touch .contact-card {
+    position: relative;
+    width: 90%;
+    background: var(--card-bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 50px;
+    border-radius: 10px;
+    column-gap: 50px;
+}
+
+.contact-card .title {
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.contact-card .title h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.contact-card .title h3 {
+    font-size: 2.3em;
+    font-weight: 400;
+}
+
+.contact-card .title h2 {
+    font-size: 4.2em;
+    font-weight: 700;
+    background: linear-gradient(to top, transparent 0%, var(--first-color) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .9;
+}
