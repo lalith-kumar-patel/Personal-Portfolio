@@ -132,7 +132,6 @@ function Home() {
                         <h2>Hi, I'm</h2>
                         <h2>Lalith Kumar Patel</h2>
                         <h3>Full Stack Angular SpringBoot Developer</h3>
-                        {/* <p>I Create stunning websites for your business, Highly experience in web development</p> */}
                         <a href='#contact' className='btn'>Contact Me <i className='fas fa-arrow-circle-right'></i></a>
                     </div>
                     <div className='home-img'>
